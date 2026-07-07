@@ -19,7 +19,9 @@ This is **Project 1** in the series — the classic "Hello World" of machine lea
 ## Dataset
 
 **Name:** Iris Flower Dataset
+
 **Source:** Built into scikit-learn (`sklearn.datasets.load_iris`) — no download needed
+
 **Description:** 150 flower samples across 3 species (Setosa, Versicolor, Virginica), with 4 measurements per flower (sepal length/width, petal length/width). The goal is to predict the species from the measurements.
 
 Because this dataset is built into scikit-learn, there's nothing to download — it loads directly in the notebook. This is intentional: Project 1 removes the extra step of dataset-wrangling so you can focus entirely on the ML workflow.
