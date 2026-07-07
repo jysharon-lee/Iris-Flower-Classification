@@ -1,8 +1,8 @@
-# Iris Flower Classification
+# Iris Flower Classification - ML For Fun Project 1
 
 > Part of the **ML/DL for Beginners** series — a step-by-step path for people getting into Machine Learning and Deep Learning, with zero prior ML experience assumed.
 
-This is **Project 1** in the series — the classic "Hello World" of machine learning.
+This is **Project 1** in the series of ML For Fun
 
 ## What You'll Learn
 
@@ -14,7 +14,7 @@ This is **Project 1** in the series — the classic "Hello World" of machine lea
 ## Prerequisites
 
 - Basic Python (variables, loops, functions)
-- No prior ML experience needed — this is designed to be your first ML project
+- No prior ML experience needed 
 
 ## Dataset
 
@@ -22,9 +22,9 @@ This is **Project 1** in the series — the classic "Hello World" of machine lea
 
 **Source:** Built into scikit-learn (`sklearn.datasets.load_iris`) — no download needed
 
-**Description:** 150 flower samples across 3 species (Setosa, Versicolor, Virginica), with 4 measurements per flower (sepal length/width, petal length/width). The goal is to predict the species from the measurements.
+**Description:** 150 flower samples across 3 species (Setosa, Versicolor, Virginica), with 4 measurements per flower (sepal length/width, petal length/width).
 
-Because this dataset is built into scikit-learn, there's nothing to download — it loads directly in the notebook. This is intentional: Project 1 removes the extra step of dataset-wrangling so you can focus entirely on the ML workflow.
+Because this dataset is built into scikit-learn, there's nothing to download — it loads directly in the notebook. 
 
 ## Setup
 
@@ -45,7 +45,7 @@ jupyter notebook notebook.ipynb
 1. **Introduction** — what we're predicting and why this dataset is the classic starting point
 2. **Import libraries** — pandas, scikit-learn, matplotlib/seaborn, what each one does
 3. **Load & explore the data** — first look at the data, summary statistics, visualizing the 3 species
-4. **Data cleaning** — a quick check (this dataset is already clean — you'll learn *why* checking still matters)
+4. **Data cleaning** — a quick check 
 5. **Train/test split** — why we never train and test on the same data
 6. **Model building** — training a K-Nearest Neighbors classifier, explained step by step
 7. **Model evaluation** — accuracy score and confusion matrix, explained in plain language
@@ -53,9 +53,9 @@ jupyter notebook notebook.ipynb
 
 ## Expected Results
 
-By the end of the notebook, you should get roughly **95-100% accuracy** — this dataset is small and clean, so a high score here is expected, not a sign you've done something advanced.
+By the end of the notebook, you should get roughly **95-100% accuracy** — this dataset is small and clean, so a high score here is expected.
 
-## Next Steps / Challenges
+## Teeny-Tiny Brainstorming
 
 - [ ] Try changing `k` (the number of neighbors) in KNN — how does accuracy change with k=1 vs k=15?
 - [ ] Try a different algorithm (Logistic Regression or Decision Tree) — compare its accuracy to KNN
