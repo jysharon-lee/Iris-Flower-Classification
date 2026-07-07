@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Iris Flower Classification
 
 > Part of the **ML/DL for Beginners** series — a step-by-step path for people getting into Machine Learning and Deep Learning, with zero prior ML experience assumed.
