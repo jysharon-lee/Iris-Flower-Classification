@@ -31,7 +31,7 @@ Because this dataset is built into scikit-learn, there's nothing to download —
 ```bash
 # Clone this repo
 git clone [repo-url]
-cd iris-flower-classification
+cd Iris-Flower-Classification
 
 # Install dependencies
 pip install -r requirements.txt
